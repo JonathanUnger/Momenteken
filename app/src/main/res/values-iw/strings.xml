@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">הגדרות</string>
+    <string name="userName">שם משתמש:</string>
+    <string name="password">סיסמה:</string>
+    <string name="login">התחבר</string>
+    <string name="education">חינוך</string>
+    <string name="environment">איכות הסביבה</string>
+    <string name="safety">בטיחות</string>
+    <string name="wrongUser">שם המשתמש או הסיסמה אינם נכונים</string>
+    <string name="sendReport">שלח דו"ח</string>
+    <string name="ok">אישור</string>
+    <string name="cancel">ביטול</string>
+    <string name="exit">יציאה</string>
+    <string name="exit_message">אתה בטוח שברצונך לצאת?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="title_activity_test">פרקי המבדק</string>
+    <string name="title_activity_users">ניהול משתמשים</string>
+    <string name="testChapters">פרקי המבדק:</string>
+    <string name="title_activity_chapter">חלון פרק במבדק</string>
+    <string name="newTest">מבדק חדש</string>
+    <string name="title_activity_new_test">חלון מבדק חדש</string>
+    <string name="insertInstitution">מוסד</string>
+    <string name="insert_date">תאריך</string>
+    <string name="start_test">התחל</string>
+    <string name="load_test">טען מבדק שמור</string>
+    <string name="insertType">סוג המבדק</string>
+    <string name="title_activity_tests_list">מבדקים שמורים</string>
+    <string name="logout">התנתק</string>
+    
+    <string name="title_activity_welcome">מומנתקן</string>
+    <string name="saveComment">שמור</string>
+	<string-array name="typesArray">
+	    <item >בית ספר</item>
+	    <item >גן ילדים</item>
+	    <item >משפחתון</item>
+	</string-array>
+	
+	<string-array name="testOperations">
+        <!-- <item>שמור מבדק</item> -->
+        <item>שלח מבדק</item>
+        <!-- <item>פרטי המוסד</item> -->
+    </string-array>
+    <string-array name="menuOperations">
+        <item>מבדק חדש</item>
+        <item>טען מבדק שמור</item>
+        <item>אודות</item>
+        <!-- <item>התנתק</item> -->
+    </string-array>
+    <string name="user_name">שם משתמש:</string>
+    <string name="user_password">סיסמה:</string>
+	<string name="test_drawer_title">תפריט מבדק</string>
+	<string name="main_drawer_title">תפריט</string>
+    <string name="send_test_msg">המבדק נשלח בהצלחה!</string>
+    <string name="send_test_error_msg">לא ניתן לשלוח מבדק שאינו מלא לגמרי!</string>
+    <string name="send_test_connection_error_msg">בעיית תקשורת\n שמור את המבדק ושלח מאוחר יותר</string>
+    <string name="insti_name_error_msg">חובה להזין שם מוסד!</string>
+    <string name="save_test_title">שמירת מבדק</string>
+    <string name="save_test_msg">עזיבת המסך תגרום למחיקת המבדק.\nלשמור את המבדק?</string>
+    <string name="delete_test_title">מחיקת מבדק</string>
+    <string name="delete_test_msg">אתה בטוח שברצונך למחוק את המבדק?</string>
+    <string name="institution_name">שם המוסד</string>
+    <string name="settelment">היישוב</string>
+    <string name="area">המחוז</string>
+    <string name="address">כתובת</string>
+    <string name="phone_number">טלפון</string>
+    <string name="institution_number">סמל מוסד</string>
+    <string name="number_of_students">מספר תלמידים</string>
+    <string name="ownership">בעלות</string>
+    <string name="foundation_year">שנת הקמה</string>
+    <string name="principal_details">פרטי המנהל/ת</string>
+    <string name="supervisor_details">פרטי המפקח/ת</string>
+    <string name="participants_insti">משתתפים מטעם המוסד</string>
+    <string name="participants_ownership">משתתפים מטעם הבעלות</string>
+    <string name="institution_details">פרטי המוסד</string>
+    <string name="empty_list">אין מבדקים שמורים!</string>
+    <string name="about_title">אודות</string>
+    <string name="logout_title">יציאה</string>
+    <string name="logout_message">אתה בטוח שברצונך להתנתק?</string>
+    <string name="connect_error">החיבור לשרת נכשל</string>
+    <string name="login_error">שם המשתמש או הסיסמה אינם נכונים</string>
+    <string name="no_pics">לא צולמו תמונות לפריט זה</string>
+    <string name="no_more_pics">כבר צולמו 2 תמונות עבור פריט זה</string>
+    <string name="test_progress_dialog_title">התקדמות שליחת המבדק:</string>
+    <string name="connect_failure">החיבור לשרת נכשל\n בדוק את חיבור האינטרנט שלך ונסה שנית</string>
+    <string name="title_activity_user_edit">עריכת משתמש</string>
+    <string name="user_details">פרטי משתמש:</string>
+    <string name="admin">מנהל:</string>
+    <string name="first_name">שם פרטי:</string>
+    <string name="last_name">שם משפחה:</string>
+    <string name="no_description">אין תיאור לפריט זה</string>
+
+    <string name="drawer_open">פתח</string>
+    <string name="drawer_close">סגור</string>
+</resources>

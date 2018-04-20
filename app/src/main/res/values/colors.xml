@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#1C4878</color>
+    <color name="panelColor">#D5E1ED</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="green">#8ba74f</color>
+    <color name="splash1">#BD26B3</color>
+    <color name="splash2">#E61990</color>
+    <color name="splash3">#A117B0</color>
+    <color name="list_item_bg">#d7e4bd</color>
+    <color name="purple_light">#a276eb</color> 
+    <color name="purple_middle">#8658ce</color>
+    <color name="purple_dark">#6a3ab2</color>
+    <color name="blue_light">#98BFEB</color> 
+    <color name="blue_middle">#78ADEB</color>
+    <color name="blue_dark">#2574CF</color>
+    <color name="drawer_bg">#ACC8E8</color>
+    <color name="inner_bg">#ACC8E8</color>
+    <color name="ok_text_color">#89B52F</color>
+    <color name="notok_text_color">#CF0808</color>
+    <color name="yellow_2">#F4FC03</color>
+    <color name="orange_1">#FCAD03</color>
+    <color name="red_0">#FC2403</color>
+    <color name="zero_priority">#DB3C23</color>
+    <color name="one_priority">#E6A732</color>
+    <color name="two_priority">#E0C31B</color>
+    
+    
+    
+    
+</resources>

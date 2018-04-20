@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue_light"
+    android:padding="20dp"
+    android:gravity="right" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:weightSum="10" >
+
+        <TextView
+            android:id="@+id/headerTitle"
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="wrap_content"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1.5"
+            android:text="Header"
+            android:textColor="@color/backgroundColor"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:textStyle="bold"
+            android:gravity="right" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dateHeaderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date" 
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:textStyle="bold"
+        android:textColor="@color/backgroundColor"
+        android:shadowColor="@android:color/black"
+        android:shadowRadius="1.5"
+        android:shadowDx="1"
+        android:shadowDy="1" />
+
+</LinearLayout>

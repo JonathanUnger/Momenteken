@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/custom_shape"
+    android:orientation="vertical"
+    android:weightSum="100" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:background="@drawable/item_title_section" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="10" >
+
+            <TextView
+                android:id="@+id/titleText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/numberText"
+                android:text="TextView"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingRight="3dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/numberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_alignParentRight="true"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="@drawable/item_number_textview" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:weightSum="10"
+        android:layout_margin="5dp">
+
+        <ImageButton
+            android:id="@+id/commentBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="3.33"
+            android:background="@drawable/item_button"
+            android:src="@drawable/comment" />
+
+        <ImageButton
+            android:id="@+id/galleryBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="3.33"
+            android:background="@drawable/item_button"
+            android:src="@drawable/gallery" />
+
+        <ImageButton
+            android:id="@+id/cameraBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.33"
+            android:background="@drawable/item_button"
+            android:src="@drawable/camera" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100" >
+
+                <ImageButton
+                    android:id="@+id/notOkBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/ok_cancel_button_shape"
+                    android:src="@drawable/cancel" />
+
+                <ImageButton
+                    android:id="@+id/okBtn1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/ok_cancel_button_shape"
+                    android:src="@drawable/ok" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/levelsButtonsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <Button
+                    android:id="@+id/zeroButton"
+                    android:layout_width="35dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/red_btn"
+                    android:text="0"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/oneButton"
+                    android:layout_width="35dp"
+                    android:layout_height="34dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/orange_btn"
+                    android:text="1"
+                    android:textSize="12dp" />
+
+                <Button
+                    android:id="@+id/twoButton"
+                    android:layout_width="35dp"
+                    android:layout_height="33dp"
+                    android:background="@drawable/yellow_btn"
+                    android:text="2"
+                    android:textSize="12dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+<!-- 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:weightSum="10" >
+
+        <ImageButton
+            android:id="@+id/notOkBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:background="@drawable/ok_cancel_button_shape"
+            android:src="@drawable/cancel" />
+
+        <ImageButton
+            android:id="@+id/okBtn1"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:background="@drawable/ok_cancel_button_shape"
+            android:src="@drawable/ok" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/levelsButtonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/zeroButton"
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/red_btn"
+            android:text="0"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/oneButton"
+            android:layout_width="35dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/orange_btn"
+            android:text="1"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/twoButton"
+            android:layout_width="35dp"
+            android:layout_height="33dp"
+            android:background="@drawable/yellow_btn"
+            android:text="2"
+            android:textSize="12dp" />
+    </LinearLayout>
+-->
+</LinearLayout>
